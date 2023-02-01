@@ -1,0 +1,101 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+html, body{
+    margin: 0;
+    padding:0;
+    color:#4053AE;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+  
+    background-color: #FDF7EE;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+    flex: 1 1 300px
+}
+
+
+
+.logo{display: flex;
+    font-size: 2em;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.navLink{
+    text-align: center;
+    align-content: center; 
+    padding-left: 30px;  
+    font-size: 18px;
+}
+
+.logBtn{
+    padding: 2px;
+    border: solid #4053AE 1px;
+    background-color: #4053AE;
+    margin-left: 30px;
+    color: white;
+    font-size: 18px;
+    border-radius: 10%;
+}
+
+.sect-1{
+    display: flex;
+    justify-content:center;
+    background-color: #FDF7EE;
+
+}
+
+.txt-artcl{
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column;
+    justify-content:center;
+    align-content: center;
+    align-items:flex-start;
+    flex: 1 1 50%;
+}
+
+.col-1-1{
+    font-size: 7em;
+    font-weight:900;
+}
+.col-2-1{
+    font-size: 2em; 
+   
+}
+
+.btn-visit{
+    padding: 2px;
+    width: 150px;
+    border: solid #4053AE 1px;
+    background-color: #4053AE;
+    color: white;
+    margin-top: 30px;
+    
+       text-align: center;
+}
+
+
+.photo-wrap{
+    flex: 1 1 50%;   
+}
+
+.dog-photo{
+    width: 500px;
+    border-radius: 50%;
+}
