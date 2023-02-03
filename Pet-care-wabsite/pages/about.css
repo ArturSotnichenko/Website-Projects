@@ -1,0 +1,35 @@
+
+h2{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.frame{
+  display: flex;
+  max-width: 70%;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+
+.vet-wrap{
+    display:flex;
+    flex: 1 0 100px; 
+}
+
+.v-wrap{
+    justify-content:end;
+}
+.vet-img{
+    max-width: 70%;
+    border-radius: 50%;
+}
+.art-col{
+    display:flex;
+    flex-direction: column;
+    flex: 1 0 100px;
+    align-content: center;
+    letter-spacing:1px;
+}

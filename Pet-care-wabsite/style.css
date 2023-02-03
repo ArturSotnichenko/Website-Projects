@@ -16,23 +16,28 @@ a {
 
 
 
-header {
+.header {
     background-color: #FDF7EE;
     display: flex;
     justify-content: space-around;
     align-content: center;
     text-align: center;
     padding-top: 30px;
-    padding-bottom:30px;
-   
-    
+    padding-bottom:30px; 
+  
 }
 
 
 
+.section{
+    display: flex;
+    justify-content: center;
+}
+
 .logo {
     display: flex;
     font-size: 2em;
+    font-weight: 900;
 }
 
 nav {
@@ -94,6 +99,7 @@ nav {
     color: white;
     margin-top: 30px;
     text-align: center;
+    cursor: pointer;
 }
 
 
@@ -156,7 +162,7 @@ nav {
 }
 
 .title{
-padding: 10px 0 10px 0;
+padding: 10px 0 20px 0;
 font-size: 2.5em;
 
 }
@@ -196,4 +202,100 @@ justify-content: space-around;
     background-color: #4053AE;
     color: white;
        text-align: center;
+       cursor: pointer;
+}
+
+.client {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+.client-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    }
+
+.cl-img{
+        max-width: 25%;
+    }
+
+
+    /* ------------Contact---------------------*/
+
+.contact{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    background-color: #4053AE;
+    color: white;
+}
+.contact-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+    .form{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.cl-data{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    ;
+}
+.cl-inp{
+   height: 25px; 
+    width: 40%;
+    
+}
+
+.inp-style{
+    border: none;
+    border-bottom: solid white 2px;
+    background-color: #4053AE;
+    color: white;
+}
+
+.p-info{
+    font-weight:600;
+    margin-bottom: 0;
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.form-btn{
+    border: none;
+    background-color: #4053AE;
+    color: white;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.form-btn:hover{
+    background-color: #8B96C9;
+    cursor: pointer;
+       
 }
