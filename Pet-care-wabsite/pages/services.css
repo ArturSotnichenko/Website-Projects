@@ -1,0 +1,37 @@
+.serv-wrap{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+      max-width: 50%;
+}
+ .serv-items{
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    align-content: center;
+     flex-wrap: wrap; 
+     padding: 20px 0 20px 0;
+} 
+
+.s-item{
+display: flex;
+flex-direction: column;
+
+align-items: center;
+padding: 20px 0 20px 0;
+
+
+}
+
+.s-item>img{
+    border-radius: 50%;
+    max-width: 100%;
+}
+.s-item>p {
+ margin: 10px;
+}
+
+
+

@@ -19,60 +19,75 @@
         </div>
 
         <nav>
-            <a href="#" class="navLink"> Home</a>
-            <a href="#" class="navLink"> About</a>
-            <a href="#" class="navLink"> Services</a>
-            <a href="#" class="navLink"> Blog</a>
-            <a href="#" class="navLink"> Contact</a>
-            <a href="#" class="navLink"> Member</a>
+            <a href="index.html#HomeAnchor" class="navLink"> Home</a>
+            <a href="pages/about.html#AboutAnchor"target=_blank title="About" class="navLink"> About</a>
+            <a href="pages/services.html#ServicesAnchor" target=_blank title="Services" class="navLink"> Services</a>
+            <a href="#ContactAnchor" class="navLink"> Contact</a>
             <a href="#" class="logBtn"> Log in</a>
         </nav>
     </header>
 
 
     <section class="section">
+        <a name="ServicesAnchor"></a>
         <div class="serv-wrap">
             <div class="title">
                 <h1>House Call Services</h1>
             </div>
             <div class="serv-items">
+
+                
                 <div class="s-item">
-                    <img src="../assets/img/checkup.png" alt="Pet image">
+                    <img src="../assets/img/pet-1.png" alt="Pet image">
                     <p>Checkup</p>
-                    <p></p>
+                    <p>20 min</p>
+                    <p>&dollar;25</p>
+                    <span class="service-btn"> Book Now </span>
                 </div>
 
                 <div class="s-item">
-                    <img src="../assets/img/dental.png" alt="Pet image">
+                    <img src="../assets/img/pet-2.png" alt="Pet image">
                     <p>Dental Care</p>
                     <p>20 min</p>
-                    <p>$</p>
+                    <p>&dollar;100</p>
+                    <span class="service-btn"> Book Now </span>
 
                 </div>
 
                 <div class="s-item">
-                    <img src="../assets/img/gooming.png" alt="Pet image">
+                    <img src="../assets/img/pet-3.png" alt="Pet image">
                     <p>Grooming</p>
-                    <p></p>
+                    <p>35 min</p>
+                    <p>&dollar;35</p>
+                    <span class="service-btn"> Book Now </span>
                 </div>
 
+          
                 <div class="s-item">
                     <img src="../assets/img/pet-4.png" alt="Pet image">
                     <p>Vaccinations</p>
-                    <p></p>
+                    <p>15 min</p>
+                    <p>&dollar;60</p>
+                    <span class="service-btn"> Book Now </span>
                 </div>
 
                 <div class="s-item">
                     <img src="../assets/img/pet-5.png" alt="Pet image">
                     <p>Pain Management</p>
-                    <p></p>
+                    <p>45 min</p>
+                    <p>&dollar;15</p>
+                    <span class="service-btn"> Book Now </span>
                 </div>
 
                 <div class="s-item">
                     <img src="../assets/img/pet-6.png" alt="Pet image">
                     <p>Behavioral Consultation</p>
-                    <p></p>
+                    <p>1 hr 30 min</p>
+                    <p>&dollar;200</p>
+                    <span class="service-btn"> Book Now </span>
                 </div>
+                
+       
             </div>
         </div>
     </section>
@@ -80,43 +95,35 @@
 
 
 
-    <footer class="contact">
-        <div class="contact-wrapper">
-            <div class="title">Contact</div>
-            <div class="contact-info">
-                <span>
-                    <p class="p-info">Phone</p>
-                    <p>48452099099</p>
-                </span>
-                <span>
-                    <p class="p-info"> Email</p>
-                    <p>info@mysite.com</p>
-                </span>
-                <span>
-                    <p class="p-info"> Hours of Operation</p>
-                    <p></p>
-                    <p> Mon - Fri: 9am - 8pm</p>
-                    <p>​​Saturday: 9am - 4pm</p>
-                </span>
-                <span>
-                    <p class="p-info">Area of Service</p>
-                    <p>Warsaw</p>
-                </span>
-            </div>
+   
+    <footer class="contact"> 
+        <a name="ContactAnchor"></a>
+<div class="contact-wrapper">
+<div class="title">Contact</div>
+<div class="contact-info"> 
+    <span ><p class="p-info">Phone</p> <p>48452099099</p> </span>
+    <span> <p class="p-info"> Email</p>  <p>info@mysite.com</p></span>
+    <span>
+        <p class="p-info"> Hours of Operation</p> <p></p>
+        <p>  Mon - Fri: 9am - 8pm</p>
+        <p>​​Saturday: 9am - 4pm</p>
+        </span>
+     <span> <p class="p-info">Area of Service</p> <p>Warsaw</p> </span>
+</div>
 
-            <form class="form" method=get action='http://fe.it-academy.by/TestForm.php'>
+<form class="form" method=get action='http://fe.it-academy.by/TestForm.php'>
 
-                <div class="cl-data ">
-                    <input class="cl-inp inp-style" type="text" value="Name">
-                    <input class="cl-inp inp-style" type="email" name="email" value="Email" id="">
-                </div>
+<div class="cl-data ">
+    <input class="cl-inp inp-style" type="text" value="Name">
+    <input class="cl-inp inp-style" type="email" name="email" value="Email" id="">
+</div>
+   
 
+<textarea  class=" inp-style" name="textarea">Type your massage here...</textarea>
+<button  class = "form-btn" type="submit" value="Submit">Submit</button>
+</form>
 
-                <textarea class=" inp-style" name="textarea">Type your massage here...</textarea>
-                <button class="form-btn" type="submit" value="Submit">Submit</button>
-            </form>
-
-        </div>
+</div>
 
 
     </footer>
